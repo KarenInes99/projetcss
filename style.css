@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.box{
+    width:500px;
+    display:flex;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    box-shadow: 10px 5px 5px #e0e0e0;
+}
+.box_left{
+    border-radius:15px;
+    background-image:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width:50%;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+.title{
+    color: hsl(241, 100%, 89%);
+    font-size:15px;
+    text-align:center;
+}
+.content_circle{
+    display:flex;
+    justify-content:center;
+}
+.circle{
+    border-radius:50%;
+    width:125px;
+    height:125px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+}
+.pourcent{
+    color:white;
+    font-size:50px;
+}
+.full_pourcent{
+    color:hsl(241, 100%, 89%);
+    font-size:11px;
+    margin-top:0px;
+}
+.great{
+    text-align:center;
+    color:white;
+    font-size:22px;
+    margin-top:15px;
+}
+.text_bottom{
+    color:hsl(241, 100%, 89%);
+    font-size:12px;
+    text-align:center;
+    margin-top:15px;
+}
+.box_center{
+    display:flex;
+    flex-direction:column;
+}
+.box_right{
+    padding-top:20px;
+    padding-left:18px;
+    padding-right:20px;
+    width:50%;
+}
+.summary{
+    font-size:20px;
+}
+span{
+    font-weight:bold;
+}
+.box_inside{
+    display:flex;
+    font-size:14px;
+}
+.flexbox{
+    display:flex;
+    justify-content:space-between;
+    border-radius:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:10px;
+    margin-top:15px;
+}
+.txt{
+    margin-left:5px;
+}
+.rea{
+    color:hsl(0, 100%, 67%);
+}
+.reaction{
+    background-color:#fee7f0;
+}
+.mem{
+    color:hsl(39, 100%, 56%);
+}
+.memory{
+    background-color:#fffdcb;
+}
+.ver{
+    color:hsl(166, 100%, 37%);
+}
+.verbal{
+    background-color:#e0f2f1;
+}
+.vis{
+    color:hsl(234, 85%, 45%);
+}
+.visual{
+    background-color:#f0f8ff;
+}
+.button{
+    background-color:hsl(224, 30%, 27%);
+    color:white;
+    font-size:14px;
+    width:200px;
+    text-align:center;
+    border-radius:20px;
+    padding-top:8px;
+    padding-bottom:8px;
+    margin-top:28px;
+
+}
